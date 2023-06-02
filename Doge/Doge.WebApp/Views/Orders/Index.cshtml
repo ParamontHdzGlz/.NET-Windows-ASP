@@ -1,0 +1,6 @@
+﻿<!-- Your view content here -->
+
+@foreach (var order in ViewBag.Orders)
+{
+    <p>Order ID: @order.OrderId, Required Shipped Timestamp: @order.RequiredShippedTimestamp</p>
+}
